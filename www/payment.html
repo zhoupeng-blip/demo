@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>支付</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="layui/layui/css/layui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/><!--头部样式-->
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/><!--尾部样式-->
+		<link rel="stylesheet" type="text/css" href="css/payment.css"/>
+		
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<!--顶部-->
+			<div class="top clear regtop">
+				<div class="content clear">
+					<p class="fl ml210 ml265">legochina.cn</p>
+					<p class="fr">
+						欢迎光临
+						<a href="index.html" class="c_f60">乐购</a>，
+						请
+						<a href="login.html" class="c_f60">登录</a>\
+						<a href="register.html" class="c_f60">注册</a>
+					</p>
+				</div>
+			</div>
+			<div class="logincont content clear">
+				<div class="logo reglogo fl">
+					<a href="register.html">
+						<img src="img/paymentlogo.jpg" />
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--内容-->
+		<div class=" paycont content clear">
+			<!--提示1-->
+			<div class="tips">
+				<span class="f20 c_666" style="line-height: 60px;">订单提交成功，请尽快付款！ 订单编号：91000234567</span>
+				<span class="fr f18"style="text-decoration: underline;line-height: 60px;">
+					<a href="#"style="color: #1080e9;">订单详情</a>
+				</span>
+			</div>
+			<!--提示支付-->
+			<div class="tipspay f18">
+				<span>请您在订单提交<span style="color: #f36666;">24</span>小时内付款，否则将会取消订单</span>
+				<span class="fr c_333">应付金额：<span class="c_f60 f22">47:00</span></span>
+			</div>
+			<!--支付标题-->
+			<div class="paytitle">
+				<span class="anniu f22 c_fff">乐购支付</span>
+				<span class="f18 ml10 c_bf">以下方式由乐购支付提供</span>
+			</div>
+			<!--选择银行卡-->
+			<div class="bankcard">
+				<span class="card f18 ml40 spanhover payway">
+					银行卡
+					<span class="gou" style="display: block;">√</span>
+				</span>
+				<span class="bank f18 ml30 payway">
+					<span>中国招商银行</span>
+					<span class="ml30 c_f60">网银</span>
+					<span class="ml30 c_bf">最近使用</span>
+					<span class="gou" style="display: none;">√</span>
+				</span>
+				<!--添加银行卡-->
+				<span class="addcard ml30">
+					添加银行卡 +
+				</span>
+			</div>
+			
+			<!--立即支付-->
+			<button class="immediately mt10 fr f26" id="immediately">
+				立即支付
+			</button>
+		
+			<!--其他支付方式-->
+			<div class="otherpay">
+				<span class="f22 mr10">其他支付</span>
+				<span class="f18 c_bf">以下方式不支持合并支付</span>
+				<div class="paylist mt10">
+					<span class="f18 c_59">
+						<a class="c_59" href="#">微信支付</a>|
+						<a class="c_59" href="#"> 中国移动支付</a>|
+						<a class="c_59" href="#">中国银联</a>|
+						<a class="c_59" href="#">外籍内卡</a>|	
+						<a class="c_59" href="#">拉卡拉</a>|	
+						<a class="c_59" href="#"> 预约支付卡</a>|
+						<a class="c_59" href="#">乐购钱包扫一扫</a>      
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<!--广告-->
+		<div style="height: 88px; width: 1200px;margin: 40px auto 0px;">
+			<img src="img/vipindex20.jpg" />
+		</div>
+		
+		
+		<!--底部-->
+		<div class="footer">
+			<div class="line"></div>
+			<div class="title mb40">
+				<ul class="titlelist clear">
+					<li style="background: url(img/footer_bg.png) no-repeat;background-position: 0px 0px;"></li>
+					<li style="background: url(img/footer_bg.png) no-repeat;background-position: 0px -52px;"></li>
+					<li style="background: url(img/footer_bg.png) no-repeat;background-position: 0px -104px;"></li>
+					<li style="background: url(img/footer_bg.png) no-repeat;background-position: 0px -156px; margin-right: 0px;"></li>
+				</ul>
+			</div>
+			<div class="footercont clear f14">
+				<ul class="fl">
+					<li class="fb">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul class="fl">
+					<li class="fb">支付方式</li>
+					<li>货到付款</li>
+					<li>网上支付</li>
+					<li>礼品卡支付</li>
+					<li>银行转账</li>
+				</ul>
+				<ul class="fl">
+					<li class="fb">订单服务</li>
+					<li>订单配送查询</li>
+					<li>订单状态说明</li>
+					<li>自助取消订单</li>
+					<li>自主修改订单</li>
+				</ul>
+				<ul class="fl">
+					<li class="fb">退换货</li>
+					<li>退换货政策</li>
+					<li>自助申请退换货</li>
+					<li>退换货进度查询</li>
+					<li>退款方式和时间</li>
+				</ul>
+				<ul class="fl">
+					<li class="fb">商家服务</li>
+					<li>商家中心</li>
+					<li>运营服务</li>
+					<li>加入唯品会</li>
+				</ul>
+				<ul class="logo">
+					<img src="img/logo_00.png"/>
+				</ul>
+			</div>
+			<div class="company f14">
+				<span class="mr20">公司简介</span>|  
+				<span class="mr20 ml20">Investor Relations</span>|
+				<span class="mr20 ml20">网站联盟</span>|
+				<span class="mr20 ml20">乐购招商</span>|
+				<span class="mr20 ml20">机构销售</span>|
+				<span class="ml20">手机乐购</span>
+			</div>
+			<div class="copy f14">
+				Copyright&nbsp;&nbsp;(C)&nbsp;&nbsp;乐购网 &nbsp;2004-2016,&nbsp;All&nbsp;Rights&nbsp;Reserved
+			</div>
+			
+		</div>
+
+
+
+		
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="layui/layui/layui.all.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/payment.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

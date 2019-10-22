@@ -1,0 +1,61 @@
+.header{
+	height: 130px;
+}
+.header .top{
+	line-height: 30px;
+	height: 30px;
+	background-color: #000000;
+	color: #E5E5E5;
+}
+.header .content{
+	position: relative;
+}
+.header .content .shopcar{
+	margin-left: 40px;
+}
+.header .content .shopcar li{
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+	width: 100px;
+	height: 35px;
+}
+.header .content .shopcar li.car{
+	background: url(../img/bgicon.png) no-repeat;
+	background-position: 0px -43px;
+	background-color: #FF6600;
+	text-indent: 2em;
+}
+.header .content .search{
+	
+}
+.header .content .logo{
+	position: absolute;
+	left: 0px;
+	top: -35px;
+}
+.header .content .search input{
+	width: 380px;
+	height: 32px;
+	border: 2px solid #FF6600;
+}
+.header .content .search button{
+	width: 50px;
+	height: 36px;
+	background: url(../img/bgicon.png) no-repeat;
+	background-position: 0px 0px;
+	border: none;
+	/*outline: 0;取消点击时的光晕*/
+}
+.header .mainnav ul.clear{
+	margin-left: 200px;
+	font-size: 16px;
+	margin-top: 32px;
+	font-weight: bold;
+	color: #323232;
+}
+.header .mainnav ul.clear li.fl{
+	height: 27px;
+	line-height: 27px;
+	margin-left: 30px;
+}

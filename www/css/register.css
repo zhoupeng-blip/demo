@@ -1,0 +1,147 @@
+/*头部开始*/
+.header{
+	height: 104px;
+	border-bottom: 3px solid #CCCCCC;
+}
+.header .regtop{
+	height: 20px;
+	line-height: 20px;
+}
+.header .logincont{
+	height: 85px;
+}
+.header .logincont .reglogo{
+	position: absolute;
+	top: -21px;
+}
+.header .logincont .welcome{
+	margin-left: 275px;
+	line-height: 85px;
+}
+.header .logincont .usernum{
+	margin-top: 40px;
+	margin-right: 40px;
+}
+/*头部结束*/
+
+/*内容开始*/
+.regcont{
+	width: 565px;
+	height: 700px;
+	margin: 0px 400px;
+}
+.regcont ul li{
+	position: relative;
+	margin-top: 50px;
+	height: 40px;
+	width: 578px;
+}
+.regcont ul li.read{
+	margin-top: 13px;
+	height: 20px;
+}
+.regcont input{
+	font-size: 16px;
+	text-indent: 130px;
+	margin-right: 10px;
+	width: 400px;
+	height: 40px;
+	border: 1px solid #CCCCCC;
+}
+.regcont input.kuang{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 15px;
+	height: 15px;
+}
+.regcont span{
+	position: absolute;
+	display: inline-block;
+	top: 5px;
+	left: 10px;
+	font-size: 22px;
+	color: #666666;
+}
+.regcont button.f28{
+	border: none;
+	width: 400px;
+	height: 44px;
+	line-height: 44px;
+	background-color: #FF6600;
+	color: white;
+}
+.phcode{
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	height: 36px;
+	line-height: 32px;
+	width: 124px;
+	background-color: #E6E6E6;
+	
+}
+.numbercode{
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	height: 36px;
+	line-height: 32px;
+	width: 124px;
+	background-color: #1a83e5;
+	
+}
+/*内容结束*/
+
+
+/*尾部开始*/
+.footer{
+	height: 120px;
+}
+.footer .company{
+	margin: 20px auto 20px;
+	width: 650px;
+}
+.footer .copy{
+	text-align: center;
+	width: 600px;
+	margin: 0px auto;
+}
+/*尾部结束*/
+
+
+ input::-webkit-input-placeholder {
+        /* placeholder颜色  */
+       	color: #CCCCCC;
+        /* placeholder字体大小  */
+        font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

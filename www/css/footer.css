@@ -1,0 +1,52 @@
+/*底部开始*/
+.footer{
+	height: 470px;
+}
+.footer .line{
+	border: 2px solid #FF6600;
+}
+.footer .title{
+	height: 94px;
+	background-color: #f2f2f2;
+}
+.footer .title ul.titlelist{
+	margin: 0px auto;
+	width: 835px;
+	padding-top: 21px;
+}
+.footer .title ul.titlelist li{
+	float: left;
+	width: 140px;
+	height: 52px;
+	margin-right: 90px;
+}
+.footer .footercont{
+	width: 985px;
+	height: 140px;
+	margin-left: 240px;
+}
+.footer .footercont ul.fl{
+	margin-right: 50px;
+}
+.footer .footercont ul.logo{
+	margin-top: 25px;
+	float: left;
+	width: 160px;
+	height: 86px;
+}
+.footer .footercont ul.fl li{
+	width: 115px;
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+}
+.footer .company{
+	margin: 70px auto 20px;
+	width: 650px;
+}
+.footer .copy{
+	text-align: center;
+	width: 600px;
+	margin: 0px auto;
+}
+/*底部结束*/

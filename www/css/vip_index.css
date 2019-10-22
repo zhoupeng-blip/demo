@@ -1,0 +1,321 @@
+/*头部开始*/
+.header{
+	height: 104px;
+}
+.header .top{
+	line-height: 30px;
+	height: 30px;
+	background-color: #000000;
+	color: #E5E5E5;
+}
+.header .cont{
+	height: 74px;
+	position: relative;	
+}
+.header .cont .logo{
+	position: absolute;
+	top: -31px;
+	left: 0px;
+	z-index: 9999;
+}
+.header .cont .ml265{
+	text-indent: 15px;
+	line-height: 32px;
+	color: #999999;
+}
+.header .cont ul.conlist{
+	margin: 13px;
+	margin-left: 160px;
+	width: 400px;
+	height: 40px;
+}
+.header .cont ul.conlist li{
+	text-align: center;
+	width: 100px;
+	float: left;
+	font-size: 20px;
+	line-height: 40px;
+	color: #666666;
+	margin-right: 30px;
+}
+.header .cont ul.conlist li.listhover{
+	background-color: #FF6600;
+	color: white;
+}
+/*头部结束*/
+
+/*table滑动内容1开始*/
+
+	/*轮播部分开始*/
+.maincont{
+	height: 2700px;
+
+}
+.maincont .bannercont{
+	height: 503px;
+	background: url(../img/vipbannerbg.jpg) no-repeat;
+	background-position:-285px 0px;
+	
+}
+.maincont .bannercont .left{
+	padding-top: 10px;
+	width: 230px;
+	height: 465px;
+	margin-top: 13px;
+	margin-right: 5px;
+	background-color: #FFFFFF;
+}
+.maincont .bannercont .left .power{
+	cursor: pointer;
+	text-align: center;
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	background-color: #FF6600;
+}
+.maincont .bannercont .left .receive{
+	cursor: pointer;
+	margin-top: 50px;
+	height: 90px;
+	background: url(../img/vipindex01.jpg) no-repeat;
+}
+.maincont .bannercont .left .ledou{
+	cursor: pointer;
+	margin-top: 45px;
+	height: 80px;
+	background: url(../img/vipindex02.jpg) no-repeat;
+}
+.maincont .bannercont .left .puls{
+	cursor: pointer;
+	margin-top: 50px;
+	height: 115px;
+	background: url(../img/vipindex03.jpg) no-repeat;
+}
+.maincont .bannercont .middle{
+	width: 734px;
+	height: 475px;
+	margin-top: 13px;
+	margin-right: 13px;
+}
+.maincont .bannercont .right{
+	position: relative;
+	width: 210px;
+	height: 475px;
+	margin-top: 13px;
+	background-color: #FAFAFA;
+}
+.maincont .bannercont .right .user{
+	margin-top: 20px;
+	height: 49px;
+	width: 210px;
+	background: url(../img/vipindex04.jpg) no-repeat;
+}
+.maincont .bannercont .right .user1{
+	margin-top: 50px;
+	background: url(../img/vipindex05.jpg) no-repeat;
+	height: 25px;
+	width: 210px;
+
+}
+.maincont .bannercont .right .user2{
+	margin-top: 30px;
+	background: url(../img/vipindex06.jpg) no-repeat;
+	height: 25px;
+	width: 210px;
+	
+}
+.maincont .bannercont .right .user3{
+	margin-top: 60px;
+	position: absolute;
+	left: -1px;
+	background: url(../img/vipindex07.jpg) no-repeat;
+	height: 90px;
+	width: 211px;
+}
+
+.maincont .bannercont .right .user4{
+	position: absolute;
+	margin-top: 185px;
+	left: -1px;
+	background: url(../img/vipindex08.jpg) no-repeat;
+	height: 90px;
+	width: 211px;
+}
+
+	/*轮播部分结束*/
+
+	/*会员任务开始*/
+.maincont .task{
+	padding-top: 40px;
+	height: 190px;
+	background-color: #f5f5f5;
+}
+.maincont .task li{
+	float: left;
+	width: 285px;
+	height: 140px;
+	margin-right: 5px;
+}
+	/*会员任务结束*/
+	
+	/*F1开始*/
+.exchange{
+	height: 680px;
+}
+.exchange .title{
+	height: 50px;
+	border-bottom: 3px solid #FF6600;
+}
+.exchange .title span{
+	display: inline-block;
+	padding-left: 10px;
+	height: 50px; 
+	width: 175px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #FF6600;
+	color: white;
+}
+.exchange .list{
+	height: 625px;
+}
+.exchange .list .fl{
+	position: relative;
+	width: 208px;
+	height: 288px;
+	border: 1px solid #CCCCCC;
+	margin: 12.5px 37px 12.5px 0;
+}
+.exchange .list .fl li.price{
+	padding-top: 15px;
+	text-align: center;
+	height: 96px;
+	background-color: #F5F5F5;
+}
+	/*F1结束*/
+	
+	
+	/*F2开始*/
+.vipprice{
+	height: 680px;
+}
+.vipprice .title{
+	height: 50px;
+	border-bottom: 3px solid #FF6600;
+}
+.vipprice .title span{
+	display: inline-block;
+	padding-left: 10px;
+	height: 50px; 
+	width: 175px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #FF6600;
+	color: white;
+}
+.vipprice .list{
+	height: 625px;
+}
+.vipprice .list .fl{
+	position: relative;
+	width: 208px;
+	height: 288px;
+	border: 1px solid #CCCCCC;
+	margin: 12.5px 37px 12.5px 0;
+}
+.vipprice .list .fl button.car{
+	display: none;
+	text-indent: 50px;
+	background-color: rgba(255,102,0);
+	color: white;
+	font-size: 18px;
+	border: none;
+	position: absolute;
+	top: 0px;
+	height: 53px;
+	line-height: 53px;
+	width: 208px;
+	z-index: 99999;
+}
+.vipprice .list .fl button.car span{
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	top: 10px;
+	left: 35px;
+	background: url(../img/bgicon.png)no-repeat;
+	background-position: 0px -45px;
+}
+.vipprice .list .fl li.price{
+	padding-top: 15px;
+	text-align: center;
+	height: 96px;
+	background-color: #F5F5F5;
+}
+
+	/*F2结束*/
+	
+	
+	/*F3开始*/
+.vippower{
+	height: 410px;
+}
+.vippower .title{
+	height: 50px;
+	border-bottom: 3px solid #FF6600;
+}
+.vippower .title span{
+	display: inline-block;
+	padding-left: 10px;
+	height: 50px; 
+	width: 175px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #FF6600;
+	color: white;
+}
+.vippower .list{
+	width: 1168px;
+	height: 320px;
+	margin: 30px auto 0;
+}
+.vippower .list ul{
+	float: left;
+	width: 360px;
+	height: 320px;
+}	
+	
+	/*F3结束*/
+	
+	
+	
+	
+	
+/*table滑动内容1结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

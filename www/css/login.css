@@ -1,0 +1,256 @@
+/*头部开始*/
+.header{
+	height: 104px;
+}
+.header .logintop{
+	height: 20px;
+	line-height: 20px;
+}
+.header .logincont{
+	height: 85px;
+}
+.header .logincont .reglogo{
+	position: absolute;
+	top: -21px;
+}
+.header .logincont .welcome{
+	margin-left: 275px;
+	line-height: 85px;
+}
+.header .logincont .usernum{
+	margin-top: 40px;
+	margin-right: 40px;
+}
+/*头部结束*/
+
+
+
+.loginbgcolor{
+	width: 100%;
+	height: 500px;
+	background-color: #E93854;
+}
+.loginbgcolor .login_bg{
+	height: 500px;
+	background: url(../img/loginbackground.png) no-repeat;
+}
+.loginbgcolor .login_bg .login_con{
+	width: 350px;
+	height: 370px;
+	background-color: #fff;
+	/*position: relative;
+	top: 75px;
+	left: 775px;*/
+	float: right;
+	margin: 70px 70px 0 0;
+}
+
+.login_bg .login_con .logintitle{
+	width: 350px;
+	height: 54px;
+	line-height: 54px;
+	border-bottom: 1px solid #ddd;
+}
+.login_bg .login_con .logintitle li{
+	cursor: pointer;
+	float: left;
+	width: 170px;
+	margin-left: 5px;
+	text-align: center;
+	font-size: 24px;
+	color: #666;
+}
+.login_bg .login_con .logintitle li.current{
+	color: #f60;
+}
+
+.login_bg .login_con .alllogin {
+	width: 290px;
+	height: 210px;
+	padding-top: 30px;
+}
+.login_bg .login_con .alllogin .codelogin{
+	/*text-align: center;*/
+	position: relative;
+	display: none;
+}
+.alllogin .codelogin .eqCodeShow{
+	position: absolute;
+	left: 85px;
+	top: 15px;
+}
+.alllogin .codelogin .phone{
+	position: absolute;
+	top: 0px;
+	left: 195px;
+	display: none;
+}
+.alllogin .codelogin .tips{
+	position: absolute;
+	top: 180px;
+	left: 75px;
+	font-size: 14px;
+	color: #333333;
+}
+.userlogin ul li{
+	position: relative;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+.userlogin ul li input{
+	width: 280px;
+	height: 40px;
+	
+}
+.userlogin ul li:not(:last-child) input{
+	text-indent: 42px;
+}
+.userlogin ul li span{
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	display: block;
+	width: 40px;
+	height: 42px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #eee;
+}
+.userlogin ul li #del{
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	top: 1px;
+	left: 243px;
+	background-color: initial;
+	display: none;
+}
+.userlogin ul li.zidong{
+	padding-right: 10px;
+	line-height: 20px;
+	font-size: 14px;
+	margin-top: 0px;
+	height: 20px;
+}
+.userlogin ul li.zidong input{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.userlogin ul li.zidong .forget{
+	float: right;
+}
+.userlogin ul li.register{
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	width: 350px;	
+	height: 50px;
+	line-height: 50px;
+	background-color: #fcfcfc;
+	border-top: 3px solid #E6E6E6;
+	
+}
+.userlogin ul li.register p{
+	height: 20px;
+}
+.userlogin ul li.register span{
+	position: absolute;
+	left: 110px;
+	top: 15px;
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #e5383a;
+	color: white;
+}
+
+/*尾部开始*/
+.footer{
+	height: 120px;
+}
+.footer .company{
+	margin: 20px auto 20px;
+	width: 650px;
+}
+.footer .copy{
+	text-align: center;
+	width: 600px;
+	margin: 0px auto;
+}
+/*尾部结束*/
+
+
+
+
+.userlogin ul li.submit input{
+	border: 0;
+	background-color: #f60;
+	width: 282px;
+	font-size: 24px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*字体图标的使用*/
+@font-face{
+	font-family:iconfont;
+	src:url(../font/font_1451959379_8626566.eot);
+	src:url(../font/font_1451959379_8626566.eot) format('embedded-opentype'),
+	url(../font/font_1451959379_8626566.woff) format('woff'),
+	url(../font/font_1451959379_8626566.ttf) format('truetype'),
+	url(../font/font_1451959379_8626566.svg) format('svg');
+}
+.iconfont{
+	font-family:iconfont!important;
+	font-size:16px;
+	font-style:normal;
+	-webkit-font-smoothing:antialiased;
+	-webkit-text-stroke-width:.2px;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+
+
+/*内容结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

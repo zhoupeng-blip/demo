@@ -1,0 +1,320 @@
+/*轮播部分开始*/
+.bannercont{
+	height: 430px;
+}
+.bannercont .banner{
+	width: 1000px;
+	height: 430px;
+}
+.bannercont .seller{
+	width: 196px;
+	height: 430px;
+}
+.bannercont .seller .title{
+	color: white;
+	width: 196px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #93d46f;
+}
+.bannercont .seller .booklist{
+	height: 400px;
+}
+.bannercont .seller .booklist li{
+	height: 42px;
+	border-bottom: 1px solid #b3b3b3;
+}
+.bannercont .seller .booklist li.listhover{
+	height: 141px;
+}
+.bannercont .seller .booklist li .number{
+	float: right;
+	color: white;
+	text-align: center;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #b3b3b3;
+}
+.bannercont .seller .booklist li .bookcont{
+	float: right;
+	width:200px ;
+	height: 120px;
+}
+/*轮播部分结束*/
+
+
+/*图书折扣区开始*/
+.discount{
+	height: 575px;
+}
+.discount .title{
+	height: 50px;
+	border-bottom: 3px solid #FF6600;
+}
+.discount .title span{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	width: 220px;
+	height: 50px; 
+	line-height: 50px; 
+	background-color: #FF6600;
+}
+.discount .list{
+	height: 520px;
+}
+.discount .list ul{
+	padding-top: 10px;
+	width: 210px;
+	height: 245px;
+	margin-right: 28px;
+}
+.discount .list ul.ulhover{
+	background-color: #F2F2F2;
+}
+.textin10{
+	text-indent: 10px;
+}
+/*图书折扣区结束*/
+
+/*新书上架开始*/
+.newbook{
+	height: 550px;
+}
+.newbook .title{
+	width: 900px;
+	height: 50px;
+	border-bottom: 3px solid #FF6600;
+}
+.newbook .title span.f28{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	width: 45px;
+	height: 50px; 
+	line-height: 50px; 
+	background-color: #FF6600;
+}
+.newbook .cont{
+	height: 500px;
+}
+.newbook .cont .left{
+	width: 896px;
+	height: 498px;
+	border: 2px solid #CCCCCC;
+	border-top:0px ;
+	margin-right: 14px;
+}
+.newbook .cont .left ul.list{
+	float: left;
+	padding-top: 10px;
+	margin-left: 18px;
+	width: 160px;
+	height: 230px;
+}
+.newbook .cont .right{
+	width: 280px;
+	height: 496px;
+	border: 2px solid #CCCCCC;
+}
+.newbook .cont .right ul li{
+	height: 39px;
+	line-height: 39px;
+	font-size: 16px;
+	border-bottom: 2px solid #CCCCCC;
+}
+.newbook .cont .right ul li span{
+	float: left;
+	display: inline-block;
+}
+.newbook .cont .right ul li .booknum{
+	float: left;
+	width: 20px;
+	display: inline-block;
+}
+.newbook .cont .right ul li .bookname{
+	float: left;
+	display: block;
+	float: left;
+}
+.newbook .cont .right ul li .bookcont{
+	height: 130px;
+	width: 280px;
+	display: none;
+}
+.newbook .cont .right ul div.f24{
+	margin-bottom: 5px;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 0px;
+}
+
+/*新书上架结束*/
+
+
+/*独家提供开始*/
+.provision{
+	height: 580px;
+	border-bottom: 3px solid #e6e6e6;
+}
+.provision .title{
+	height: 50px;
+	border-bottom: 3px solid #FF6600;
+}
+.provision .title span.f28{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	width: 45px;
+	height: 50px; 
+	line-height: 50px; 
+	background-color: #FF6600;
+}
+.provision .title ul.fr li{
+	cursor: pointer;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+}
+.provision .title ul.fr li.lihover{
+	background-color: #FF6600;
+	color: white;
+}
+.provision .procon{
+	position: relative;
+	display: none;
+	height: 495px;
+}
+.provision .procon .btn{
+	position: absolute;
+	top: 230px;
+}
+.provision .procon .middle{
+	padding-left: 25px;
+	width: 1103px;
+	height: 490px;
+	margin-left: 36px;
+}
+.provision .procon .middle ul{
+	margin-right: 23px;
+	padding-top: 10px;
+	float: left;
+	width: 160px;
+	height: 230px;
+}
+.provision .page{
+	margin: 0px auto;
+	width: 100px;
+	height: 30px;
+}
+.provision .page span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #CCCCCC;
+	margin: 10px 10px;
+}
+.provision .page span.spanhover{
+	background-color: #FF6600;
+}
+/*独家提供结束*/
+
+
+/*猜你喜欢开始*/
+.guess{
+	height: 545px;
+	border-bottom: 2px solid #CCCCCC;
+}
+.guess .title{
+	height: 50px;
+	border-bottom: 3px solid #FF6600;
+}
+.guess .title span.fr{
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 26px;
+}
+.guess .title span.f28{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	width: 45px;
+	height: 50px; 
+	line-height: 50px; 
+	background-color: #FF6600;
+}
+.guess .cont{
+	width: 1130px;
+	height: 490px;
+	margin: 0px auto;
+}
+.guess .cont ul{
+	margin-right: 34px;
+	padding-top: 10px;
+	float: left;
+	width: 160px;
+	height: 230px;
+}
+/*猜你喜欢结束*/
+
+
+
+/*人文社科精选开始*/
+.renwen{
+	height: 110px;
+}
+.renwen ul.clear{
+	float: left;
+	width: 198px;
+	height: 110px;
+}
+.renwen ul.clear li.left{
+	text-align: center;
+	width: 120px;
+	height: 120px;
+}
+.renwen ul.clear li.left span.f14{
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	color: white;
+	border-radius: 15px;
+	background-color: #f43626;
+}
+
+
+
+
+
+/*人文社科精选开始*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

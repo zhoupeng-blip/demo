@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>欢迎注册</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/><!--头部样式-->
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<!--顶部-->
+			<div class="top clear regtop">
+				<div class="content clear">
+					<p class="fl ml210 ml265">legochina.cn</p>
+					<p class="fr">
+						欢迎光临
+						<a href="index.html" class="c_f60">乐购</a>，
+						请
+						<a href="login.html" class="c_f60">登录</a>\
+						<a href="register.html" class="c_f60">注册</a>
+					</p>
+				</div>
+			</div>
+			<!---->
+			<div class="logincont content clear">
+				<div class="logo reglogo fl">
+					<a href="register.html">
+						<img src="img/registerLogo.jpg" />
+					</a>
+				</div>
+				<div class="welcome fl f30 c_666">欢迎登陆</div>
+				<div class="usernum f24 c_a6 fr">已有账号，请&nbsp;&nbsp;<a class="c_666" href="login.html">登录</a></div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="content"style="border-bottom: 2px solid #CCCCCC;">
+			<div class="regcont">
+				<form id="form1" action="login.html" autocomplete="off">
+					<ul>
+						<li>
+							<input class="username" type="text" name="username" id="username" placeholder="您的账户名和登录名"/>
+							<span>用户名</span>
+						</li>
+						<li>
+							<input class="password" type="password" name="password" id="password" placeholder="建议设置两种字符密码"/>
+							<span>设置密码</span>	
+						</li>
+						<li>
+							<input class="repeatpaw" type="password" name="repeatpaw" id="repeatpaw" placeholder="再次输入密码"/>
+							<span>确认密码</span>
+						</li>
+						<li>
+							<input class="phonenum" type="text" name="phonenum" id="phonenum" placeholder="建议使用常用手机号"/>
+							<span>中国+86</span>
+						</li>
+						<li>
+							<input class="code" type="text" name="code" id="code" placeholder="请输入验证码"/>
+							<span>验证码</span>
+							<span class="numbercode"style="top: 3px;left: 275px;color: white;">4E7R</span>
+						</li>
+						<li>
+							<input class="phonecode" type="text" name="phonecode" id="phonecode" placeholder="获取验证码"/>
+							<span>手机验证码</span>
+							<span class="phcode"style="top: 3px;left: 275px;color: #4C4C4C;">获取验证码</span>
+						</li>
+						<li class="read">
+							<div class="f14 fl ml20" style="line-height: 16px;height: 16px;width: 400px;">
+							<input class="kuang fl " type="checkbox" name="kuang" id="kuang" />
+								我已阅读并同意<label class="c_f60">《京东用户注册协议》</label>
+							</div>
+						</li>
+						<li><button class="f28">立即注册</button></li>
+					</ul>
+					<!--
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+					-->
+				</form>
+				
+			</div>
+		</div>
+		<!--尾部-->
+		<div class="footer">
+			<div class="company f14">
+				<span class="mr20">公司简介</span>|  
+				<span class="mr20 ml20">Investor Relations</span>|
+				<span class="mr20 ml20">网站联盟</span>|
+				<span class="mr20 ml20">乐购招商</span>|
+				<span class="mr20 ml20">机构销售</span>|
+				<span class="ml20">手机乐购</span>
+			</div>
+			<div class="copy f14">
+				Copyright&nbsp;&nbsp;(C)&nbsp;&nbsp;乐购网 &nbsp;2004-2016,&nbsp;All&nbsp;Rights&nbsp;Reserved
+			</div>
+		</div>
+		
+		
+		
+		
+		<!--引入jQuery库-->
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--引入表单验证插件-->
+		<script src="js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+		<!--引入提示信息插件-->
+		<script src="js/messages_cn.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

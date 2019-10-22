@@ -1,0 +1,141 @@
+.header{
+	height: 105px;
+}
+.logincont{
+	position: relative;
+	height: 75px;
+}
+.c_4c{
+	position: absolute;
+	right: 0px;
+	top: 37px;
+	width: 220px;
+	height: 25px;
+}
+.allshop ul li{
+	float: left;
+	
+}
+.allshop ul:after{
+	width: 0;
+	height: 0;
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.allshop ul li input{
+	vertical-align: middle;
+}
+.allshop .title{
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	background-color: #f2f2f2;
+	color: #666;
+}
+.allshop .singleshop{
+	/*height: 200px;*/
+	padding: 10px 0;
+	border-bottom: #ccc solid 2px;
+}
+.del,.delall{
+	cursor: pointer;
+}
+.allshop .singleshop .number button{
+	float: left;
+	width: 24px;
+	height: 24px;
+	border: #ccc solid 1px;
+	text-align: center;
+	line-height: 24px;
+}
+.allshop .singleshop .number input{
+	width: 80px;
+	height: 22px;
+	border: 0;
+	border-top: #ccc solid 1px;
+	border-bottom: #ccc solid 1px;
+	text-align: center;
+}
+.allshop .totalprice{
+	margin-top: 30px;
+	height: 64px;
+	line-height: 64px;
+	border: 1px solid #CCCCCC;
+}
+
+#gopay{
+	width: 130px;
+	height: 64px;
+	line-height: 64px;
+	text-align: center;
+	font-size: 26px;
+	background-color: #FF6600;
+	color: white;
+	border: none;
+}
+/*人气单品开始*/
+.popularity{
+	height: 315px;
+	/*background-color: #33CAF2;*/
+}
+.popularity .title{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 3px solid #FF6600;
+}
+.popularity .title span{
+	display: inline-block;
+	width: 125px;
+	text-align: center;
+	background-color: #FF6600;
+	color: white;
+}
+.popularity .popucont{
+	height: 248px;
+}
+.popularity .popucont ul{
+	margin-right: 35px;
+	width: 205px;
+}
+.popularity .popucont ul.ulhover{
+	background-color: #F2F2F2;
+}
+/*人气单品结束*/
+
+
+
+
+
+.w110{
+	width: 110px;
+}
+.w540{
+	width: 540px;
+}
+.w150{
+	width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
